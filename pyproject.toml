@@ -1,0 +1,10 @@
+[project]
+name = "frostslot"
+version = "1.0.0"
+requires-python = ">=3.12"
+description = "生鲜陈列柜除霜排窗"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"
